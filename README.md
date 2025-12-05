@@ -2,7 +2,7 @@
 
 # E.M.Pilot
 
-**AI Email Management Desktop App**
+**Local NPU-based AI Email Management Desktop Application**
 
 > An open-source on-device conversational AI email client desktop application that leverages your local PC's NPU
 
@@ -10,7 +10,7 @@
 
 ## Application Description
 
-MailPilot AI is an AI email management application that integrates with Gmail accounts to automatically classify and summarize emails, generate AI-based auto-replies, and other features. It adds convenience to email usage by providing functions that email users have not been able to utilize before, offering these features through a conversational interface.
+E.M.Pilot is an AI email management application that integrates with Gmail accounts to automatically classify and summarize emails, generate AI-based auto-replies, and other features. It adds convenience to email usage by providing functions that email users have not been able to utilize before, offering these features through a conversational interface.
 
 This desktop app was developed using React and Flask frameworks with Tauri, running AI models on Qualcomm Copilot+ PC NPUs to minimize dependency on existing cloud-based environments.
 
@@ -44,8 +44,7 @@ This desktop app was developed using React and Flask frameworks with Tauri, runn
 
 ### Backend
 - **Flask**: Backend server
-- **Transformers**: Hugging Face models -> will be modified to local PC models using Qualcomm AI Hub
-- **AI Models**: Nomic, QWEN LLM, EASY_OCR models
+- **AI Models**: Nomic, QWEN LLM, EASY_OCR, Yolo models
 
 ---
 
